@@ -18,17 +18,17 @@ object pepon {
 
 	var energia = 30
 
-    method comer(alimento){
-        energia = energia + (alimento.energiaQueAporta() / 2)
-    }
+	method comer(alimento){
+        	energia = energia + (alimento.energiaQueAporta() / 2)
+    	}
 
-    method volar(distancia) {
-    	energia = energia - 20 - 2*distancia
+    	method volar(distancia) {
+    		energia = energia - 20 - 2*distancia
   	}
 
-    method energia() {
-    	return energia
-    }
+	method energia() {
+    		return energia
+    	}
 }
 object alpiste {
   
