@@ -61,13 +61,8 @@ object roque {
 	var ave = pepita
 	var cantCenas = 0
 
-	method agarrarAPepita() {
-		ave = pepita
-		cantCenas = 0
-	}
-
-	method agarrarAPepon() {
-		ave = pepon
+	method agarrarA(_ave) {
+		ave = _ave
 		cantCenas = 0
 	}
 
